@@ -72,20 +72,6 @@ function Chennai(props) {
     }
   };
 
-  // const handleId = async (id,StartDate,EndDate,days) => {
-  //     try {
-  //       history.push("/roomsbooked");
-  //       let roombook = await axios.get(`${env.api}/booked-rooms/${id}/${StartDate}/${EndDate}/${days}`,{
-  //         headers : {
-  //           "Authorization" : window.localStorage.getItem("app_token")
-  //         }
-  //       })
-
-  //     } catch (error) {
-  //       console.log(error)
-  //     }
-  //   }
-
   const handleClick = async (id) => {
     try {
       history.push(`/rooms/${id}`);
