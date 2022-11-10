@@ -70,20 +70,6 @@ function Ooty() {
     }
   };
 
-  // const handleId = async (id,StartDate,EndDate,days) => {
-  //     try {
-  //       history.push("/roomsbooked");
-  //       let roombook = await axios.get(`${env.api}/booked-rooms/${id}/${StartDate}/${EndDate}/${days}`,{
-  //         headers : {
-  //           "Authorization" : window.localStorage.getItem("app_token")
-  //         }
-  //       })
-
-  //     } catch (error) {
-  //       console.log(error)
-  //     }
-  //   }
-
   const handleClick = async (id) => {
     try {
       history.push(`/rooms/${id}`);
@@ -124,17 +110,7 @@ function Ooty() {
               </div>
               <div className="searchResults_price">
                 <h3>{e.price}/Night</h3>
-                {/* { e.isbooked ? <h4>This room already booked</h4> :
-                  <h4>
-                    Total Price : {( totalPrice = data.days * e.price)} for{" "}
-                    {data.days} days  
-                  </h4>
-                   
-                  }
-                  <div>
-                  <DateRangePicker ranges={[selectionRange]} onChange={handleSelection} minDate={new Date()} />
-                  </div> */}
-              </div>
+                </div>
             </div>
           </div>
 

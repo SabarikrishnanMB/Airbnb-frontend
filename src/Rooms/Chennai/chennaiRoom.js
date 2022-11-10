@@ -6,25 +6,7 @@ function ChennaiRoom(roomId) {
   const data = roomId;
 
   const [rooms, setRooms] = useState([]);
-  // const getRoom = async () => {
-  //     try {
-
-  //         let roomData = await axios.get(`${env.api}/rooms/:id`,{
-  //             headers : {
-  //               "Authorization" : window.localStorage.getItem("app_token")
-  //             }
-  //           })
-  //           setRooms([...roomData.data])
-  //     } catch (error) {
-  //         console.log(error)
-  //     }
-  // }
-  // useEffect(() => {
-  //     getRoom();
-  //     // eslint-disable-next-line react-hooks/exhaustive-deps
-  //   }, []);
-
-  return (
+   return (
     <>
       <div>
         <h2>{data}</h2>
