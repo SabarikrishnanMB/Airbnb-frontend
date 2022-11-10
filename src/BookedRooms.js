@@ -3,9 +3,9 @@ import { React, useEffect, useState, useContext } from "react";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import { Link } from "react-router-dom";
 import StarIcon from "@mui/icons-material/Star";
-import env from "./settings";
 import dataContext from "./ContextData";
 import "./bookedRooms.css";
+import { env } from "./settings";
 
 const ReadMore = ({ children }) => {
   const text = children;

@@ -8,9 +8,9 @@ import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
 import { Button } from "@mui/material";
 import axios from "axios";
-import env from "./settings";
 import { useHistory, Link } from "react-router-dom";
 import ChennaiRoom from "./Rooms/Chennai/chennaiRoom";
+import { env } from "./settings";
 
 const ReadMore = ({ children }) => {
   const text = children;

@@ -4,9 +4,9 @@ import dataContext from "../ContextData";
 import { DateRangePicker } from "react-date-range";
 import { getMonth, getYear } from "date-fns";
 import axios from "axios";
-import env from "../settings";
 import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
+import { env } from "../settings";
 
 const ReadMore = ({ children }) => {
   const text = children;

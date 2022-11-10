@@ -6,7 +6,8 @@ import dataContext from "./ContextData";
 import { Button } from "@mui/material";
 import {useHistory,Link} from 'react-router-dom';
 import axios from 'axios'
-import env from "./settings";
+import { env } from "./settings";
+
 
 
 const ReadMore = ({ children }) => {

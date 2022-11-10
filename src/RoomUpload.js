@@ -1,8 +1,8 @@
 import axios from "axios";
 import React, { useState, useContext } from "react";
 import { useHistory } from "react-router-dom";
-import env from "./settings";
 import dataContext from "./ContextData";
+import { env } from "./settings";
 
 function RoomUpload() {
   const [hotelname, setHotelname] = useState();
