@@ -5,7 +5,8 @@ import "./register.css";
 import * as Yup from "yup";
 import Textfield from "./Textfield";
 import { Formik, Form } from "formik";
-import env from "./settings";
+import { env } from "./settings";
+
 
 function Register() {
   const history = useHistory();
