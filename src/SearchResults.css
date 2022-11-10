@@ -1,0 +1,83 @@
+.searchResults{
+    display: flex;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+.searchResults:hover{
+    opacity: 0.8;
+}
+.searchResults>img{
+    height: 200px !important;
+    width: 350px !important;
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+.searchResults_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+    /* position: relative; */
+}
+.searchResults_heart{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+.searchResults_top_text{
+    width: 40vw;
+}
+.searchResults_top_text>h3{
+    font-weight: 300;
+    margin-top: 10px;
+}
+.searchResults_top_text>p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgb(87, 85, 85);
+}
+.searchResults_bottom_text{
+    display: flex;
+    justify-content: space-between;
+}
+.searchResults_stars{
+    display: flex;
+    align-items: center;
+}
+.searchResults_star{
+    color: gold;
+}
+.searchResults_price{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+.searchResults_price>p{
+    text-align: right;
+}
+.room-img{
+    height: 200px !important;
+    width: 350px !important;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Styling of Read more link */
+
+.text{
+    display: inline;
+    width: 100%;
+  }
+    
+  .read-or-hide{
+    color: rgb(192,192,192);
+    cursor: pointer;
+  }
+
+  .room-dates{
+      width: 100px;
+      height: 80px;
+  }

@@ -1,0 +1,45 @@
+.banner{
+    height: 50vh;
+    position: relative;
+    background: url("https://www.thespruce.com/thmb/bINrY2yCiKKbLcrxRX0fbi3hdbk=/1500x986/filters:no_upscale():max_bytes(150000):strip_icc()/orestudios_lonemadrone_05-0294eeaf854c4d8ebf34d13990996973.jpg") center center no-repeat;
+    
+}
+
+.banner_text{
+   
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 100%;
+    height: 0px;
+}
+.banner_text>button{
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.banner_text>button:hover{
+    background-color: white;
+    color: #ff7779;
+}
+.banner_text>h5{
+    margin-top: 10px;
+}
+.banner_text>h1{
+    margin-top: -5px;
+}
+.banner_search{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+.banner_search_button{
+    background-color: white !important;
+    color: #ff7779 !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+}
+

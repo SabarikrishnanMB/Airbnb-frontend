@@ -1,0 +1,80 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    background-color: white;
+    z-index: 100;
+    top: 0;
+    padding: 1%;
+}
+.header_icon{
+    object-fit: contain;
+    height: 60px;
+    margin-left: 40px ;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 21vw;
+    margin-right: 140px;
+}
+#demo-simple-select{
+    margin-top: 5px;
+    align-items: center;
+    width: 500px;
+    border-radius: 999px !important;
+}
+.host{
+    text-decoration: none;
+    width: 312px;
+    
+}
+.logout{
+    background-color: #2b62f8;
+}
+
+.buttons{
+    width: 450px;
+}
+.button_login{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: #2b62f8;
+    cursor: pointer;
+    margin-left: 3%;
+}
+
+.button_logout{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: #2b62f8;
+    cursor: pointer;
+    margin-right: 3%;
+}
+
+.button_register{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: #2b62f8;
+    cursor: pointer;
+    margin-left: 3%;
+}
+
+.button_login:hover {
+background-color: #2b62f8;
+color: white;
+}
+.button_register:hover{
+background-color: #2b62f8;
+color: white;
+}
+.logout:hover{
+background-color: red;
+}
