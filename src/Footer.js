@@ -8,7 +8,7 @@ function Footer() {
         <div className="row">
           <div className="col-12">
             <div className="footer">
-              <p>&#169; 2021 Airbnb Clone!</p>
+              <p>&#169; 2023 Airbnb Clone!</p>
               <p>Privacy &#183; Terms &#183; Sitemap &#183; Company Details</p>
             </div>
           </div>
