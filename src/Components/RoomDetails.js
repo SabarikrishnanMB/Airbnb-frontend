@@ -114,7 +114,7 @@ function RoomDetails() {
     }
 
     const data = await axios.post(
-      `https://airbnb-backend-nodejs.herokuapp.com/rooms/${id}`,
+      `https://airbnb-backend.vercel.app/rooms/${id}`,
       { totalPrice, id }
     );
 
