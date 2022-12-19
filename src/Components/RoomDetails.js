@@ -114,7 +114,7 @@ function RoomDetails() {
     }
 
     const data = await axios.post(
-      `https://airbnb-backend.vercel.app/rooms/${id}`,
+      `https://airbnbbackend.onrender.com/rooms/${id}`,
       { totalPrice, id }
     );
 
