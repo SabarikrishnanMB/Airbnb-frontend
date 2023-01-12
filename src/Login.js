@@ -8,7 +8,6 @@ import { Formik, Form } from "formik";
 import dataContext from "./ContextData";
 import { env } from "./settings";
 
-
 function Login() {
   const history = useHistory();
   const data = useContext(dataContext);
@@ -81,10 +80,24 @@ function Login() {
                     <button className="signin__buttons" type="submit">
                       LOGIN
                     </button>
+                    <br/><br/>
+                    <div className="text-center">
+                      <strong>For Testing</strong>
+                      <br />
+                      <h6>Email: test@gmail.com</h6>
+                      <h6>Password: test@123</h6>
+                    </div>
                   </Form>
+
                   {failure && (
                     <span className="failure">Something went wrong!</span>
                   )}
+                </div>
+                <div className="text-center">
+                  <strong>For Testing</strong>
+                  <br />
+                  <h6>Email: test@gmail.com</h6>
+                  <h6>Password: test@123</h6>
                 </div>
               </div>
             )}
